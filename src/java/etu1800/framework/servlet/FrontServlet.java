@@ -35,7 +35,8 @@ public class FrontServlet extends HttpServlet {
             
             String url = request.getRequestURI();
             String[] tab = url.split("/");       
-            System.out.println(tab[1]);  
+            out.println(url);
+            
         }
     }
 

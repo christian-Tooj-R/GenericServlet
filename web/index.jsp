@@ -14,5 +14,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
             <input type="text" name="nom" >
             <input type="submit" value="valider">
         </form>
+        
+        <a href="FrontServlet" ><button>Bouton</button></a>
     </body>
 </html>
