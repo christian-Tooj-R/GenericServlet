@@ -13,6 +13,8 @@ public class Mapping {
     private String className;
     private String method;
 
+    
+    @MethodAnnotation(name = "test")
     public String getClassName() {
         return className;
     }
